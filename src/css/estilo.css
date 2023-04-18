@@ -1,0 +1,75 @@
+*{
+    font-family: Tahoma, sans-serif;
+}
+
+.fondo{
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/fondo_cont.jpg);
+    background-size:cover;
+    background-position: center;
+    background-blend-mode: color-dodge;
+}
+
+.h1{
+    color: rgb(255, 255, 255); 
+    background-color: rgba(32, 12, 0, 0.561);
+    border-radius: 50px;
+    font-size: 50px;
+    width: 50%
+}
+
+.noneline{
+    text-decoration: none;
+}
+
+.title_nav{
+    background: rgba(0, 88, 51, 0.712);
+    border-radius: 20px;
+    padding: 10px;
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    margin-left: 20px;
+}
+
+.conte{
+    width: 100%;
+    background-image: url(../assets/imagen/26300.jpg);
+    background-position: center;
+    background-size:cover;
+    width:800px;
+    height:auto;
+}
+.inicio{
+    background-image: url(../assets/imagen/ini.jpg);
+    background-position: center;
+    background-size:cover;
+    width:700px;
+    height:100%;
+}
+
+.div-container{
+    margin:0px 150px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.664);
+    border-radius: 30px;
+}
+
+.div-container iframe{
+    border-radius: 30px;
+    margin: 10px;
+}
+.code{
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 20%;
+    background-size: 100% auto;
+    position: absolute;
+    top: auto;left: 30%; 
+   
+}
+
+.opacity{
+    opacity: 0.5;
+}
